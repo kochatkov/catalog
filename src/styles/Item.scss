@@ -1,0 +1,25 @@
+@import "../styles/vars";
+
+.Item {
+  box-shadow: $item-box-shadow;
+  display: grid;
+  padding: 15px;
+  border-radius: 10px;
+
+  &__img {
+    width: 100%;
+  }
+
+  &__title-text {
+    font-size: 0.7rem;
+    color: gray;
+  }
+
+  &__text {
+    font-weight: bold;
+  }
+
+  &__name {
+    font-weight: normal;
+  }
+}

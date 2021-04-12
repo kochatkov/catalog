@@ -1,0 +1,12 @@
+.CartPage {
+  padding: 50px calc(50% - 590px);
+
+  &__list { 
+    width: 60%;
+  }
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+}

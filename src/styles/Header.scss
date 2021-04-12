@@ -1,0 +1,14 @@
+.Header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 60px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 0 20px;
+
+  &__total-price {
+    margin-right: 10px;
+    color: lightpink;
+    font-weight: bold;
+  }
+}

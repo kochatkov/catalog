@@ -1,0 +1,23 @@
+@import "../styles/vars";
+
+.OrderForm {
+  box-shadow: $item-box-shadow;
+  width: 30%;
+  height: 300px;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    height: 100%;
+
+    input {
+      height: 45px;
+      border-radius: 10px;
+      border: 1px solid lightpink;
+      padding-left: 10px;
+      outline: none;
+    }
+  }
+}

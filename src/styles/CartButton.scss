@@ -1,0 +1,27 @@
+.CartButton {
+  position: relative;
+  background: transparent;
+  padding: 0;
+  transition: .3s;
+
+  &:hover {
+    opacity: .8;
+  }
+
+  &__cart-img {
+    height: 50px;
+    width: 50px;
+  }
+
+  &__cart-counter {
+    position: absolute;
+    background: lightpink;
+    color: white;
+    height: 27px;
+    width: 27px;
+    top: 10px;
+    left: 0;
+    border-radius: 50%;
+    line-height: 27px;
+  }
+}

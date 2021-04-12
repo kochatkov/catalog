@@ -1,0 +1,17 @@
+.Button {
+  background: lightpink;
+  color: white;
+  height: 45px;
+  font-size: 15px;
+  border-radius: 10px;
+  transition: all .3s;
+
+  &:hover {
+    background: lighten(lightpink, 5%);
+  }
+
+  &:disabled {
+    background: gray;
+    cursor: inherit;
+  }
+}
